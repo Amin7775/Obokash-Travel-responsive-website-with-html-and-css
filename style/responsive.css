@@ -1,56 +1,91 @@
 /* Mobile */
-@media screen and (max-width:600px) {
-    nav{
-        margin: 25px 0;
-        padding: 0 20px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .navbar ul{
-        gap: 30px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .nav-title{
-        font-size: 2rem;
-    }
-/* banner section - start */
-    #banner{
-        background-position: center;
-        height: 68vh;
-    }
-    .banner-texts h1{
-        font-size: 2.5rem;
-        margin-bottom: 10px;
-    }
-    .banner-texts p{
-        margin-bottom: 1rem;
-    }
-    .banner-box{
-        width: 80%;
-        margin: 1rem auto;
-        grid-template-columns: repeat(1,1fr);
-        gap: 1.2rem;
-    }
+@media screen and (max-width: 600px) {
+  nav {
+    margin: 25px 0;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navbar ul {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-title {
+    font-size: 2rem;
+  }
+  /* banner section - start */
+  #banner {
+    background-position: center;
+    height: 68vh;
+    margin-bottom: 50px;
+  }
+  .banner-texts h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .banner-texts p {
+    margin-bottom: 1rem;
+  }
+  .banner-box {
+    width: 80%;
+    margin: 1rem auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
+  }
+
+  /* main section -start */
+  main {
+    padding: 0 20px;
+  }
+  /* popular tour - start */
+  .popular-tour-container {
+    flex-direction: column;
+  }
+
+  .popular-tour-img{
+    width: 100%;
+  }
+  /* popular tour - end */
+
+  /* main section -end */
 }
 
 /* Tablet */
-@media screen and (max-width:992px) and (min-width:600px) {
-    header{
-        padding: 0 20px;
+@media screen and (max-width: 992px) and (min-width: 600px) {
+  header {
+    padding: 0 20px;
+  }
+  nav {
+    gap: 20px;
+  }
+  .nav-title {
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  /* banner section - start */
+  #banner {
+      background-position: center;
+      margin-bottom: 50px;
     }
-    nav{
-        gap: 20px;
+    .banner-box {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .nav-title{
-        flex-wrap: nowrap;
-        font-size: 1.5rem;
+    /* banner section - end */
+
+    /* main - start */
+    /* popular tour - start */
+    .popular-tour-container{
+        flex-direction: column-reverse;
+        gap: 1rem;
     }
-/* banner section - start */
-    #banner{
-        background-position: center;
-    }
-    .banner-box{
-        grid-template-columns: repeat(2,1fr);
-    }
+    .popular-tour-img{
+    width: 100%;
+  }
+  .popular-tour-title{
+    text-align: center;
+    /* margin-top: 0; */
+  }
+    /* popular tour - end */
+    /* main - end */
 }
