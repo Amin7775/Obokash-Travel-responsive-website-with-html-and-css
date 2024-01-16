@@ -1,0 +1,26 @@
+/* Mobile */
+@media screen and (max-width:600px) {
+    nav{
+        margin: 25px 0;
+        padding: 0 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navbar ul{
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+/* Tablet */
+@media screen and (max-width:992px) and (min-width:600px) {
+    header{
+        padding: 0 20px;
+    }
+    .nav-title{
+        flex-wrap: nowrap;
+        font-size: 1.5rem;
+    }
+}
