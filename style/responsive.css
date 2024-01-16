@@ -47,6 +47,15 @@
     width: 100%;
   }
   /* popular tour - end */
+  /* destination - start */
+  .destination-row-1,.destination-row-2,.destination-row-3{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .row-text{
+    left: 39%;
+    text-align: center;
+  }
+  /* destination - start */
 
   /* main section -end */
 }
@@ -87,5 +96,15 @@
     /* margin-top: 0; */
   }
     /* popular tour - end */
+
+    /* destination - start */
+    .destination-row-1,.destination-row-2,.destination-row-3{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .row-text{
+      left: 45%;
+      text-align: center;
+    }
+    /* destination - end */
     /* main - end */
 }

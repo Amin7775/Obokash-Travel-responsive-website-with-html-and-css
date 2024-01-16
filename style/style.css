@@ -28,6 +28,26 @@
     color: white;
     cursor: pointer;
 }
+
+.common-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.common-description{
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.70);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.width-100{
+    width: 100%;
+}
 /* header styles - start */
 header{
     max-width: 1280px;
@@ -195,4 +215,52 @@ main{
 }
 
 /* our popular tours section - end */
+
+/* choose your destination - start */
+.destination-img-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.2rem;
+}
+
+.destination-row-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+.destination-row-1 img,.destination-row-3 img{
+    width: 100%;
+    height: 300px;
+}
+
+.destination-row-2{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 1.2rem;
+}
+.destination-row-2 img{
+    width: 100%;
+    height: 280px;
+    
+}
+
+.destination-row-3{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1.2rem;
+}
+
+.row{
+    position: relative;
+}
+
+.row-text{
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+/* choose your destination - end */
 /* main section - end */
