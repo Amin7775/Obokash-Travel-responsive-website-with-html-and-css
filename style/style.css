@@ -1,0 +1,11 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+/* shared style */
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+
