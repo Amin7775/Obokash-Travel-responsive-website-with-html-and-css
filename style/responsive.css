@@ -11,7 +11,27 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .nav-title{
+        font-size: 2rem;
+    }
+/* banner section - start */
+    #banner{
+        background-position: center;
+        height: 68vh;
+    }
+    .banner-texts h1{
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    .banner-texts p{
+        margin-bottom: 1rem;
+    }
+    .banner-box{
+        width: 80%;
+        margin: 1rem auto;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.2rem;
+    }
 }
 
 /* Tablet */
@@ -19,8 +39,18 @@
     header{
         padding: 0 20px;
     }
+    nav{
+        gap: 20px;
+    }
     .nav-title{
         flex-wrap: nowrap;
         font-size: 1.5rem;
+    }
+/* banner section - start */
+    #banner{
+        background-position: center;
+    }
+    .banner-box{
+        grid-template-columns: repeat(2,1fr);
     }
 }
