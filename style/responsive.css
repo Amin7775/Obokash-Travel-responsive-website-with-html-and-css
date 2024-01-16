@@ -43,20 +43,31 @@
     flex-direction: column;
   }
 
-  .popular-tour-img{
+  .popular-tour-img {
     width: 100%;
   }
   /* popular tour - end */
   /* destination - start */
-  .destination-row-1,.destination-row-2,.destination-row-3{
+  .destination-row-1,
+  .destination-row-2,
+  .destination-row-3 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .row-text{
+  .row-text {
     left: 39%;
     text-align: center;
   }
-  /* destination - start */
-
+  /* destination - end */
+  /* why choose us - start */
+  .choose-container {
+    flex-direction: column;
+  }
+  .choose-content-1,
+  .choose-content-2,
+  .choose-content-3 {
+    width: 100%;
+  }
+  /* why choose us - end */
   /* main section -end */
 }
 
@@ -74,37 +85,50 @@
   }
   /* banner section - start */
   #banner {
-      background-position: center;
-      margin-bottom: 50px;
-    }
-    .banner-box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    /* banner section - end */
+    background-position: center;
+    margin-bottom: 50px;
+  }
+  .banner-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* banner section - end */
 
-    /* main - start */
-    /* popular tour - start */
-    .popular-tour-container{
-        flex-direction: column-reverse;
-        gap: 1rem;
-    }
-    .popular-tour-img{
+  /* main - start */
+  /* popular tour - start */
+  .popular-tour-container {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .popular-tour-img {
     width: 100%;
   }
-  .popular-tour-title{
+  .popular-tour-title {
     text-align: center;
     /* margin-top: 0; */
   }
-    /* popular tour - end */
+  /* popular tour - end */
 
-    /* destination - start */
-    .destination-row-1,.destination-row-2,.destination-row-3{
-      grid-template-columns: repeat(1, 1fr);
-    }
-    .row-text{
-      left: 45%;
-      text-align: center;
-    }
-    /* destination - end */
-    /* main - end */
+  /* destination - start */
+  .destination-row-1,
+  .destination-row-2,
+  .destination-row-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .row-text {
+    left: 45%;
+    text-align: center;
+  }
+  /* destination - end */
+
+  /* why choose us - start */
+  .choose-container {
+    flex-direction: column;
+  }
+  .choose-content-1,
+  .choose-content-2,
+  .choose-content-3 {
+    width: 100%;
+  }
+  /* why choose us - end */
+  /* main - end */
 }
