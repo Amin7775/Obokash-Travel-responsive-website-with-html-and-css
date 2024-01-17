@@ -88,6 +88,12 @@
   right: .9%;
 }
   /* main section -end */
+  /* footer */
+  .footer-text{
+    /* margin-top: 50px; */
+    width: 80%;
+    
+  }
 }
 
 /* Tablet */
