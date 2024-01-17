@@ -61,13 +61,32 @@
   /* why choose us - start */
   .choose-container {
     flex-direction: column;
-  }
-  .choose-content-1,
-  .choose-content-2,
-  .choose-content-3 {
+    flex-wrap: nowrap;
     width: 100%;
+    /* border: 2px solid red; */
   }
+  .choose-content-1,.choose-content-2,.choose-content-3{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 0;
+  }
+  
   /* why choose us - end */
+  
+  /* newsletter - start */ 
+.newsletter-container{
+  flex-direction: column;
+}
+.newsletter-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.discount-text{
+  padding: 14px 25px;
+  bottom: 15%;
+  right: .9%;
+}
   /* main section -end */
 }
 
@@ -130,5 +149,19 @@
     width: 100%;
   }
   /* why choose us - end */
+  /* newletter */
+  .newsletter-container{
+    flex-direction: column;
+  }
+  .newsletter-content {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .discount-text{
+    
+    bottom: 11%;
+    right: .9%;
+  }
   /* main - end */
 }

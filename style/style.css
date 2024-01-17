@@ -45,9 +45,13 @@
   margin-bottom: 2rem;
 }
 
-.width-100 {
-  width: 100%;
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(19, 19, 24, 0.1);
+  margin: 20px 0;
 }
+
 /* header styles - start */
 header {
   max-width: 1280px;
@@ -270,38 +274,115 @@ main {
   flex-wrap: wrap;
   gap: 1.2rem;
 }
+.choose-img {
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+}
 .choose-title {
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+  padding-left: 1.5rem;
 }
 .choose-description {
   font-size: 1rem;
   color: rgba(19, 19, 24, 0.7);
-  width: 100%;
+  width: 90%;
+  padding-left: 1.5rem;
   margin-bottom: 2.5rem;
 }
 .choose-content-1 {
-  width: 42%;
+  width: 45%;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 .choose-content-2 {
-  width: 42%;
+  width: 45%;
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 .choose-content-3 {
   width: 50%;
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 /* Why choose us - end */
+/* newsletter - start */
+.newsletter-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  /* border: 2px solid saddlebrown; */
+  box-sizing: border-box;
+}
+.newsletter-content {
+  width: 40%;
+  /* border: 2px solid saddlebrown; */
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+}
+
+.newsletter-img-content {
+  flex: 1;
+  position: relative;
+  /* border: 2px solid saddlebrown; */
+}
+
+.discount-text{
+  position: absolute;
+  text-align: center;
+  background: #ff5400;
+  color: white;
+  transform: rotate(-20deg);
+  border-radius: 16px;
+  padding: 20px 35px;
+  bottom: 8.5%;
+  right: .5%;
+}
+
+.news-img {
+  width: 100%;
+  height: 100%;
+}
+.form-input {
+  padding: 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  /* border: 2px solid red; */
+}
+
+.newsletter-input {
+  border: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 16px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.form-btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 16px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 800;
+  background: #ff5400;
+  color: white;
+}
+/* newsletter - end */
 /* main section - end */
