@@ -87,6 +87,10 @@
   bottom: 15%;
   right: .9%;
 }
+/* Trending section */
+.trending-container{
+  grid-template-columns: repeat(1,1fr);
+}
   /* main section -end */
   /* footer */
   .footer-text{
@@ -169,5 +173,9 @@
     bottom: 11%;
     right: .9%;
   }
+  /* Trending section */
+.trending-container{
+  grid-template-columns: repeat(2,1fr);
+}
   /* main - end */
 }
